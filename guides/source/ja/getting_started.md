@@ -213,7 +213,7 @@ Rails.application.routes.draw do
 end
 ```
 
-上はアプリケーションの**ルーティングファイル**の内容です。外部からのリクエストをコントローラとアクションに振り分ける方法を、[DSL (ドメイン特化言語: domain-specific language)](https://en.wikipedia.org/wiki/Domain-specific_language)という特殊な言語でこのファイル内に記述します。このファイルに`root 'welcome#index'`というコードを追加すると、次のようになります。
+上はアプリケーションの**ルーティングファイル**の内容です。外部からのリクエストをコントローラとアクションに振り分ける方法を、[DSL (ドメイン特化言語: domain-specific language)](https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E5%9B%BA%E6%9C%89%E8%A8%80%E8%AA%9E)という特殊な言語でこのファイル内に記述します。このファイルに`root 'welcome#index'`というコードを追加すると、次のようになります。
 
 ```ruby
 Rails.application.routes.draw do
